@@ -1,0 +1,1141 @@
+/* popular courses style 1 css start */
+
+.course-cart1 .course-img img {
+  width: 100%;
+}
+
+.course-cart1 {
+  border-radius: 30px;
+  box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.05);
+  max-width: 420px;
+  margin: 10px auto;
+}
+
+.course-cart1 .course-img {
+  max-height: 155px !important;
+}
+
+.course-cart1 .course-img img {
+  border-radius: 30px 30px 0 0 !important;
+}
+
+.course-content .s-icon img.img-icon {
+  padding-left: 15px;
+}
+
+.course-cart1 .course-content h3.title a {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Poppings";
+  padding: 15px;
+  line-height: 21px;
+  height: 60px;
+  display: block;
+  display: -webkit-box;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+h3.title a {
+  color: #303030;
+  text-decoration: none;
+}
+
+h3.title a:hover {
+  color: #e6514c;
+  transition: 0.5s;
+}
+
+.counter-timer {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin: 18px 0 0;
+  padding: 16px;
+}
+
+.counter-timer img {
+  height: 45px;
+  display: block;
+  margin: 0 auto;
+}
+
+.offer-bg {
+  position: absolute;
+}
+
+.offer-bg span {
+  position: absolute;
+  left: 12px;
+  top: 4px !important;
+  font-size: 25px !important;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+
+.offer-bg strong del .woocommerce-Price-amount {
+  top: 20px !important;
+  font-size: 11px !important;
+  color: #000 !important;
+}
+
+.offer-bg strong del .woocommerce-Price-currencySymbol {
+  left: -7px;
+  top: 0px !important;
+  font-size: 11px !important;
+  color: #000 !important;
+}
+
+.offer-bg strong ins .woocommerce-Price-amount {
+  font-size: 16px !important;
+  left: 65px;
+  top: 15px !important;
+}
+
+.offer-bg strong ins .woocommerce-Price-currencySymbol {
+  left: -10px;
+  font-size: 16px !important;
+  top: 0px !important;
+}
+
+.course-content .for-sandah-flexing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 5px 15px 5px 0;
+  flex-wrap: wrap !important;
+}
+
+.rating_sh_content .sh_rating {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.rating_sh_content .sh_rating-upper {
+  color: #fcc400;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.rating_sh_content .sh_rating-lower {
+  padding: 0;
+  display: flex;
+  z-index: 0;
+}
+.course-btn-div {
+  background: #fafdfd;
+  min-height: 105px;
+  padding: 26px 0 25px;
+  position: relative;
+  border-radius: 0 0 30px 30px;
+}
+
+a.view-details {
+  background: #fafdfd;
+  padding: 14px 23px;
+  border-radius: 50px;
+  font-weight: 600;
+  color: rgba(48, 48, 48, 0.5);
+  box-shadow: 3px 2px 30px rgba(0, 0, 0, 0.05),
+    inset 0px 0px 3px rgba(0, 0, 0, 0.25) !important;
+  text-decoration: none;
+  text-align: right;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 17px;
+  transition: 1s;
+  float: right;
+}
+
+a.view-details:hover {
+  color: #ed4266;
+  transition: 0.3s !important;
+  border: 1px solid #ed4266 !important;
+}
+
+span.main-price del {
+  font-size: 12px;
+}
+
+span.offer-price {
+  font-size: 18px;
+  left: 35px;
+}
+
+.course-cart1 .course-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.course-cart1 .course-img:hover .view-more-link {
+  transform: scale(1);
+}
+
+.view-more-link {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  transform: scale(0);
+  transition: 0.3s;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.view-more-link::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #333;
+  left: 0;
+  top: 0;
+  opacity: 0.75;
+  z-index: -1;
+  border-radius: 30px 30px 0 0;
+}
+
+.view-more-link a {
+  font-family: "Inter";
+  color: #000;
+  text-decoration: none;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 10px;
+  border: 1px solid #000;
+  padding: 10px 15px;
+  border-radius: 30px;
+}
+
+.course-cart1 .course-img:hover .view-more-link a {
+  background: #fff;
+}
+
+.course-cart1 .course-img:hover .view-more-link i {
+  background: #fff;
+  color: #ed4266;
+}
+
+.for-flexing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.oneEduTimer img {
+  text-align: center;
+  max-width: 100%;
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.view-more-link i {
+  padding: 0px 5px 0 0;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .offer-bg img {
+    width: 100%;
+  }
+
+  a.view-details {
+    background: #fafdfd;
+    padding: 15px 23px;
+    font-size: 10px;
+  }
+
+  .oneEduTimer img {
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 15px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  a.view-details {
+    padding: 18px 22px;
+    margin-right: 3px;
+    font-size: 8px;
+  }
+}
+
+.offer-bg del:before {
+  width: 42px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  content: "";
+  left: 6px;
+  top: 27px;
+  z-index: 9;
+  transform: rotate(-16deg);
+}
+
+.offer-bg del {
+  opacity: 1 !important;
+}
+
+.course-cart1 h4.timer_title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 7px 11px;
+}
+
+/* Bulk purchase Css Start */
+
+.qty-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 100%;
+  align-items: center;
+  margin: 0 20px;
+}
+
+input.qty-minus {
+  border-radius: 15px 0 0 15px !important;
+}
+
+input.qty-plus {
+  border-radius: 0 15px 15px 0 !important;
+}
+
+.qty-wrapper input.qty-minus,
+.qty-wrapper input.qty-plus {
+  width: 20%;
+  font-size: 18px;
+  background: none !important;
+  color: #eb5b77;
+  font-weight: 600;
+  padding: 5px;
+  cursor: pointer;
+  margin: 0;
+  border: 1px solid #eb5b77;
+}
+
+.qty-wrapper input.qty {
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  border: 1px solid #eb5b77;
+  font-size: 17px;
+  padding: 7px 0;
+  outline: none !important;
+  font-family: "Poppins";
+  font-weight: 500;
+  line-height: 1.4;
+  border-width: 1px 0 1px 0;
+  height: 41px;
+}
+
+.qty-wrapper a.cart-btn {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  color: #eb5b77;
+  background: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 8px;
+  font-family: "Poppins";
+  font-size: 18px;
+  border: 1px solid #eb5b77;
+  border-radius: 15px;
+  margin-bottom: 8px;
+}
+
+.qty-wrapper a.cart-btn:hover,
+.qty-wrapper input.qty-minus:hover,
+.qty-wrapper input.qty-plus:hover {
+  background: #eb5b77 !important;
+  color: #fff;
+}
+
+.qty-wrapper input.qty::-webkit-outer-spin-button,
+.qty-wrapper input.qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qty-wrapper input.qty {
+  -moz-appearance: textfield;
+}
+
+/* Bulk purchase Css End */
+
+/* popular courses style 1 css End */
+
+/* Bundle Course CSS Start */
+
+/* Sliders Css */
+
+.career-bundles-single {
+  background: #fff;
+  border-radius: 15px;
+  margin: 0 10px;
+}
+
+.career-bundles-single img {
+  width: 100%;
+  height: 200px;
+  border-radius: 15px 15px 0px 0px !important;
+  padding: 0 10px !important;
+}
+
+.bundle-course-title h2 {
+  text-align: left;
+  padding: 0 17px;
+  font-family: "Inter" !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 131%;
+  color: #2b354e;
+}
+
+.bundle-course-features,
+.features-from-back-end {
+  text-align: left;
+  padding: 0 40px;
+  font-size: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  list-style-image: url(https://www.oneeducation.org.uk/wp-content/uploads/2022/06/Icon-ionic-ios-checkmark-1.png);
+}
+
+.bundle-course-title {
+  height: 65px;
+}
+
+.bundle-course-price {
+  display: flex;
+  padding: 0 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid #dadada;
+  padding-bottom: 10px;
+}
+
+.bundle-course-reviews {
+  display: flex;
+  padding: 20px;
+  margin-top: 0px;
+  justify-content: space-between;
+}
+
+.bundle-course-amm span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24.7932px;
+  line-height: 27px;
+  color: #ed4266;
+}
+
+.bundle-course-amm del {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19.4803px;
+  line-height: 27px;
+  text-decoration-line: line-through;
+  color: rgba(237, 66, 102, 0.53);
+}
+
+.bundle-course-reviews a {
+  background: #ed4266;
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.bundle-course-icon i {
+  color: #ffc34f;
+}
+
+.bundle-course-std {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  color: #747474;
+}
+
+.mhr-career-bundle .bundle-course-std i {
+  border: 1px solid #747474;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 3px;
+  width: 25px;
+}
+
+.bundle-course-std img {
+  height: auto;
+  width: 26px;
+  margin-right: 5px;
+}
+
+.bundle-course-reviews .rating_sh_content .sh_rating {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.bundle-course-reviews .sh_rating-upper {
+  color: #fcc400;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.bundle-course-reviews .sh_rating-lower {
+  padding: 0;
+  display: flex;
+  z-index: 0;
+}
+
+.Sh-bundle-area .owl-prev {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin-left: -20px !important;
+  display: block !important;
+  border: 0px solid black;
+}
+
+.Sh-bundle-area .owl-next {
+  width: 15px;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  right: -25px !important;
+  display: block !important;
+  border: 0px solid black;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav i {
+  font-size: 20px;
+  color: #000;
+  margin: 0 -15px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.Sh-bundle-area .owl-theme .owl-nav i:hover {
+  background: #ed4266;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.bundle-course-amm span {
+  color: #ed4266;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .bundle-course-reviews a {
+    padding: 10px 17px;
+    font-size: 7px;
+    display: block;
+  }
+}
+
+.athc-buntton a {
+  background: transparent;
+  padding: 10px 15px;
+  font-size: 15px;
+  line-height: 15px;
+  border-radius: 30px;
+  color: #000;
+  font-weight: 500;
+  font-family: "Poppins";
+  border: 1px solid #ed4266;
+  transition: 0.3s;
+  text-transform: capitalize;
+}
+
+.Sh-bundle-area .career-bundles-single {
+  max-width: 385px;
+  max-height: 473px;
+}
+.Sh-bundle-area
+  .career-bundles-single
+  .bundle-content
+  .bundle-course-features
+  dd
+  li,
+.Sh-bundle-area .bundle-content .for-back-facility-list ul li {
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #2b354e;
+  font-family: "Inter";
+}
+
+.Sh-bundle-area .bundle-course-price .bundle-course-amm span.amount {
+  color: #eb5b77;
+}
+.Sh-bundle-area .bundle-course-reviews a:hover {
+  color: #ed4266;
+  background: #fff;
+}
+
+/* Bundle Course CSS End */
+
+/* popular courses style 2 css Start */
+
+.sh23-card {
+  position: relative;
+}
+
+.sh23-card .sh23-card-front {
+  width: 312px;
+  height: 420px;
+  border-radius: 10px;
+  border: 0.94px solid #c3d4eb;
+  background: #fff;
+  gap: 12px;
+}
+
+.sh23-card ul {
+  padding: 0;
+  list-style: none;
+}
+
+.the-new-23-col-control .col-md-3 {
+  margin: 10px 0;
+}
+
+.sh23-card .sh23-card-front .sh23-card-image {
+  text-align: center;
+}
+
+.sh23-card .sh23-card-front .sh23-card-image a img {
+  border-radius: 8px;
+  min-height: 200px;
+  padding: 2px;
+  object-fit: cover;
+}
+
+.sh23-card .sh23-card-front .sh23-card-content {
+  padding: 28px 24px;
+}
+
+.sh23-card ul.course-tags li {
+  color: #6941c6;
+  font-family: "Jost";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.804px;
+  border-radius: 55px;
+  background: #f2f2ff;
+  display: inline-flex;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sh23-card h4.course-title a {
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #2b354e;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.sh23-card .sh23-card-front .sh23-card-content p.course-review {
+  color: #ffa800;
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sh23-card .sh23-card-front .sh23-card-content p.course-review span {
+  color: #64748b;
+}
+
+.sh23-card .sh23-card-front .sh23-card-content h3.course-price span.amount {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #625fff;
+}
+
+.sh23-card .sh23-card-front .sh23-card-content h3.course-price strong {
+  font-size: 15px;
+  font-family: "Jost";
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.sh23-card .sh23-card-front .sh23-card-content h3.course-price strong del {
+  font-size: 23px;
+  line-height: 23px;
+}
+
+.sh23-card .sh23-card-back {
+  position: absolute;
+  top: -100px;
+  left: 325px;
+  width: 368px;
+  height: 570px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px 0px rgba(29, 65, 98, 0.16);
+  border-radius: 8px;
+  gap: 12px;
+  z-index: 2;
+  transform: scaleX(0) rotate(0);
+  transition: all 0.2s ease-in-out;
+  transform-origin: left;
+}
+
+.sh23-card .sh23-card-back::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.sh23-card:hover .sh23-card-back {
+  transform: scaleX(1) rotate(0);
+}
+
+.the-new-23-col-control .col-md-3:nth-child(4) .sh23-card .sh23-card-back,
+.the-new-23-col-control .col-md-3:nth-child(8) .sh23-card .sh23-card-back {
+  transform-origin: right;
+}
+
+.the-new-23-col-control .col-md-3:nth-child(4) .sh23-card-back,
+.the-new-23-col-control .col-md-3:nth-child(8) .sh23-card-back {
+  left: -380px;
+}
+
+.the-new-23-col-control .col-md-3:nth-child(4) .sh23-card-back .triangle,
+.the-new-23-col-control .col-md-3:nth-child(8) .sh23-card-back .triangle {
+  margin-left: 0px;
+  position: absolute;
+  right: -10px;
+  bottom: 290px;
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .the-new-23-col-control .col-sm-6 {
+    margin: 10px 0;
+  }
+
+  .the-new-23-col-control .col-sm-6:nth-child(2) .sh23-card .sh23-card-back,
+  .the-new-23-col-control .col-sm-6:nth-child(4) .sh23-card .sh23-card-back {
+    transform-origin: right;
+  }
+
+  .the-new-23-col-control .col-sm-6:nth-child(2) .sh23-card .sh23-card-back,
+  .the-new-23-col-control .col-sm-6:nth-child(4) .sh23-card .sh23-card-back {
+    left: -385px;
+  }
+
+  .the-new-23-col-control
+    .col-sm-6:nth-child(2)
+    .sh23-card
+    .sh23-card-back
+    .triangle,
+  .the-new-23-col-control
+    .col-sm-6:nth-child(4)
+    .sh23-card
+    .sh23-card-back
+    .triangle {
+    margin-left: 0px;
+    position: absolute;
+    right: -10px;
+    bottom: 290px;
+    transform: rotate(180deg);
+  }
+
+  .sh23-card .sh23-card-front {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .the-new-23-col-control .col-xs-12 {
+    margin: 10px 0;
+  }
+
+  .sh23-card .sh23-card-back {
+    display: none;
+  }
+
+  .sh23-card .sh23-card-front {
+    width: 100%;
+  }
+}
+
+.sh23-card .sh23-card-back ul.course-inner-details li {
+  display: inline-block;
+  font-family: "Jost";
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  color: #64748b;
+  width: 100px;
+  text-transform: capitalize;
+}
+
+.sh23-card .sh23-card-back .course-exerpt p {
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #64748b;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sh23-card .sh23-card-back ul.feauture-facility {
+  list-style: initial;
+  padding: 0 10px;
+}
+
+.sh23-card .sh23-card-back ul.feauture-facility li {
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  color: #64748b;
+}
+
+.sh23-card .sh23-card-back a.add-to-cart {
+  background: #ed4266;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 11px 35px;
+  border-radius: 50px;
+  align-self: stretch;
+  gap: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.sh23-card .sh23-card-back .triangle {
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 7.5px 12px 7.5px 0;
+  border-color: transparent #fff transparent transparent;
+  transform: rotate(0deg);
+  margin-left: -35px;
+}
+
+.for-flex-test {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
+
+.sh23-card .sh23-card-front .rating_sh_content .sh_rating {
+  margin: 0;
+}
+
+/* Bundle Course Style 2 CSS Start */
+
+.sh-23-bundle-content ul {
+  padding: 0;
+  list-style: none;
+}
+
+.sh-23-bundle-item {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: #ffffff;
+  border: 1px solid #c9cddb;
+  border-radius: 8px;
+  margin: 0 10px;
+  gap: 20px;
+  width: 648px;
+  height: 298px;
+  padding: 0 15px;
+}
+
+.sh-23-bundle-content ul.course-tags li {
+  color: #6941c6;
+  font-family: "Jost";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.804px;
+  border-radius: 55px;
+  background: #f2f2ff;
+  display: inline-flex;
+  padding: 0px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+div#owl-sh-23-bundle {
+  min-width: 122%;
+  position: relative;
+}
+
+select#course-id-ele-plug-2 {
+  width: 200px;
+  border: 0;
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+div#owl-sh-23-bundle .owl-nav {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  gap: 18px;
+  display: inline-flex;
+}
+
+div#owl-sh-23-bundle .owl-nav i {
+  border: 1px solid #c9cddb;
+  border-radius: 30px;
+  padding: 10px;
+  background: #fff;
+  color: #292d32;
+}
+
+div#owl-sh-23-bundle .owl-nav i:hover {
+  border: 1px solid #ed4266;
+  border-radius: 30px;
+  padding: 10px;
+  background: #ed4266;
+  color: #fff;
+}
+
+div#owl-sh-23-bundle .owl-nav [class*="owl-"]:hover {
+  border: 1px solid #ed4266;
+  border-radius: 30px;
+  padding: 10px;
+  background: #ed4266 !important;
+  color: #fff !important;
+}
+
+label.course-id-ele-plug-2-label {
+  font-family: "Jost";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.sh-23-bundle-content h4.course-title a {
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  color: #2b354e;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.sh-23-bundle-content p.course-review {
+  color: #ffa800;
+  font-family: "Jost";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sh-23-bundle-content p.course-review span {
+  color: #64748b;
+}
+
+.sh-23-bundle-content h3.course-price span.amount {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: #625fff;
+}
+
+.sh-23-bundle-content h3.course-price strong {
+  font-size: 15px;
+  font-family: "Jost";
+  line-height: 15px;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+.sh-23-bundle-content h3.course-price strong del {
+  font-size: 23px;
+  line-height: 23px;
+}
+
+.owl-sh-23-bundle .active {
+  border: 0 !important;
+  margin: 0 !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+.sh-bundle-image img {
+  border-radius: 3px !important;
+}
+
+.title-section-sh-23-bundle .title-con h6 {
+  font-family: "Jost";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #625fff;
+}
+
+.title-section-sh-23-bundle .title-con h4 {
+  color: #101828;
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title-section-sh-23-bundle .title-con p {
+  color: #667085;
+  font-family: Jost;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .sh-23-bundle-item {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    width: 300px;
+    padding: 5px;
+  }
+  .sh-23-bundle-content h4.course-title a {
+    font-size: 14px;
+  }
+
+  .sh-23-bundle-content h3.course-price span.amount {
+    font-size: 17px;
+  }
+
+  .sh-23-bundle-content h3.course-price strong del {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  div#owl-sh-23-bundle {
+    min-width: 100%;
+  }
+
+  .sh-bundle-image img {
+    max-width: 100%;
+  }
+}
+.sh-loading {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.sh-23-loader {
+  display: none;
+  width: 18px;
+}
+
+.flexing-for-loader-23-bundle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* Bundle Course Style 2 CSS End */
